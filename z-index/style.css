@@ -1,0 +1,18 @@
+body {
+  background-color: blue;
+}
+
+.container {
+  //position: relative;
+}
+
+.phone {
+  position: relative;
+  z-index: 2;
+}
+
+.screen {
+  position: absolute;
+  z-index: 1;
+  left: 12px;
+}
